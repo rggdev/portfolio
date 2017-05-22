@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+.lateral{
+	background: #E6E6E6;
+	padding: 1em;
+	width: 350px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+/* --------Perfil-------- */
+.perfil__circulo{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	overflow: hidden;
+}
+.perfil__foto{
+	width: 100%;
+}
+.perfil__nombres{
+	color: #FFFFFF;
+	font-size: 20px;
+	width: 250px;
+	margin-left: 0.5em;
+}
+.perfil__circulo, .perfil__nombres {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* ----------Info---------- */
+.info{
+	color: #A29C95;
+	position: absolute;
+	bottom: 1em;
+}
+.info_titulo{
+	font-size: 18px;
+}
+/* --------Habilidades-------- */
+.habilidades{
+	padding: 0em;
+}
+.habilidad{
+	background-color: #A29C95;
+	color: #FFFFFF;
+	font-size: 12px;
+	display: inline-block;
+	padding: 0.5em;
+}
